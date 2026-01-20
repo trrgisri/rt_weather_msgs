@@ -16,27 +16,27 @@ The defined message types are intended to complement the standard messages provi
 ### [`rt_weather_msgs/msg/BarometricPressure.msg`](msg/BarometricPressure.msg)
 
 - `header` (`std_msgs/Header`)
-- `barometric_pressure` (`float64`): Absolute pressure in Pascals (Pa).
+- `barometric_pressure` (`float64`): Absolute pressure in hectoascals (hPa).
 - `variance` (`float64`): `0.0` if unknown.
 
 ### [`rt_weather_msgs/msg/CumulativeHailfall.msg`](msg/CumulativeHailfall.msg)
 
 - `header` (`std_msgs/Header`)
-- `cumulative_hailfall` (`float64`): Cumulative hail accumulation in hits/cm^2
+- `cumulative_hailfall` (`float64`): Cumulative hail accumulation in hits/cm^2.
 - `duration` (`float64`): Duration of hailfall in sec.
 - `variance` (`float64`): `0.0` if unknown.
 
 ### [`rt_weather_msgs/msg/CumulativePrecipitation.msg`](msg/CumulativePrecipitation.msg)
 
 - `header` (`std_msgs/Header`)
-- `cumulative_precipitation` (`float64`): Cumulative precipitation in mm
+- `cumulative_precipitation` (`float64`): Cumulative precipitation in mm.
 - `duration` (`float64`): Duration of precipitation in sec.
 - `variance` (`float64`): `0.0` if unknown.
 
 ### [`rt_weather_msgs/msg/HailfallRate.msg`](msg/HailfallRate.msg)
 
 - `header` (`std_msgs/Header`)
-- `hailfall_rate` (`float64`): Hailfall rate in hits/cm^2h
+- `hailfall_rate` (`float64`): Hailfall rate in hits/cm^2h.
 - `variance` (`float64`): `0.0` if unknown.
 
 ### [`rt_weather_msgs/msg/Irradiance.msg`](msg/Irradiance.msg)
